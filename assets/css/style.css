@@ -1,6 +1,12 @@
-#container-main{
+#containerMain{
     background-color: aquamarine;
 }
+
 h2{
     font-size: 3rem;
+}
+
+#btnPlay,
+#btnReload{
+    font-size: 2rem;
 }

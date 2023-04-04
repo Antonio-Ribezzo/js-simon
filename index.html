@@ -11,16 +11,18 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div id="container-main" class="vh-100 d-flex flex-column justify-content-center align-items-center">
-        <h1 class="text-uppercase mb-4">memorizza i seguenti numeri</h1>
-        <div id="numeri" class="d-flex justify-content-center align-items-center">
-            <h2 class="rounded-circle bg-white p-4 mx-2">23</h2>
+    <div id="containerMain" class="vh-100 d-flex flex-column justify-content-center align-items-center">
+        <button id="btnPlay" class="btn btn-primary">Play</button>
+        <h1 id="title-1" class="text-uppercase mb-4 d-none">memorizza i seguenti numeri</h1>
+        <h1 id="title-2" class="text-uppercase fs-1 mb-4 badge text-bg-success d-none">hai indovinato i seguenti numeri</h1>
+        <div id="numeri" class="d-none d-flex justify-content-center align-items-center">
+            <!-- <h2 class="rounded-circle bg-white p-4 mx-2">23</h2>
             <h2 class="rounded-circle bg-white p-4 mx-2">45</h2>
             <h2 class="rounded-circle bg-white p-4 mx-2">72</h2>
             <h2 class="rounded-circle bg-white p-4 mx-2">33</h2>
-            <h2 class="rounded-circle bg-white p-4 mx-2">42</h2>
+            <h2 class="rounded-circle bg-white p-4 mx-2">42</h2> -->
         </div>
-
+        <button id="btnReload" class="d-none btn btn-danger mt-4">Reload</button>
     </div>
 
     <!-- script Bootstrap -->
